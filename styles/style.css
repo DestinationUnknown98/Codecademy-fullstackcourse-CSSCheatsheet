@@ -32,10 +32,11 @@ nav {
   nav a {
     display: inline-block;
     padding: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
-    font-size: 10px;
+    transition: background-color 0.3s ease;
   }
   
   nav a:hover {
